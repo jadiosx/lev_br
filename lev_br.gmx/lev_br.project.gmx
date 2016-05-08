@@ -8,11 +8,22 @@
   <sprites name="sprites">
     <sprite>sprites\character00_idle_s</sprite>
     <sprite>sprites\character00_idle_w</sprite>
+    <sprite>sprites\character1</sprite>
+    <sprite>sprites\character2</sprite>
+    <sprite>sprites\sprite4</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_fire.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obj_player</object>
+    <object>objects\obj_dpad</object>
+    <object>objects\obj_firebutton</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
     <room>rooms\room1</room>
